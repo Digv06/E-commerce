@@ -1,0 +1,2 @@
+This is the static file in blog folder!
+Pass : Django_shop

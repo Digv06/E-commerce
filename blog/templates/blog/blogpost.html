@@ -1,0 +1,42 @@
+{% extends 'blog/basic.html'%}
+{% block title %}Blog Post {% endblock %}
+{% block body %}
+
+<div class="container my-5">
+<div class="row">
+    <div class="col-md-8 blog-main">
+      <h3 class="pb-4 mb-4 font-italic border-bottom">{{post.title}}</h3>
+
+      <div class="blog-post">
+        <h2 class="blog-post-title">{{post.head0}}</h2>
+        <p class="blog-post-meta">{{post.pub_date}} by <a href="#">Digvijay</a></p>
+
+        <p>{{post.chead0}}</p>
+        <br>
+        <h2>{{post.head1}}</h2>
+        <p>{{post.chead1}}</p>
+        <br>
+        <h3>{{post.head2}}</h3>
+        <p>{{post.chead2}}</p>
+        <br>
+    </div><!-- /.blog-main -->
+</div>
+    <aside class="col-md-4 blog-sidebar">
+      <div class="p-4 mb-3 bg-light rounded">
+        <h4 class="font-italic">About</h4>
+        <p class="mb-0">Saw you downtown singing the Blues. Watch you circle the drain. Why don't you let me stop by? Heavy is the head that <em>wears the crown</em>. Yes, we make angels cry, raining down on earth from up above.</p>
+      </div>
+
+      <div class="p-4">
+        <h4 class="font-italic">Elsewhere</h4>
+        <ol class="list-unstyled">
+          <li><a href="#">GitHub</a></li>
+          <li><a href="#">LinkedIn</a></li>
+          <li><a href="#">Facebook</a></li>
+        </ol>
+      </div>
+    </aside><!-- /.blog-sidebar -->
+
+  </div>
+</div>
+  {% endblock %}
