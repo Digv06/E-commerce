@@ -13,9 +13,9 @@ This is an E-commerce website. This website created by using JavaScript, Django,
 ### Tracking of the item 
 ![Fant-Fash img4](https://github.com/Digv06/E-commerce/assets/86612866/7ca9b90b-18f0-4b40-8459-1fe50bf16d98)
 
-### Video Representation
+### Video Representation Link
 
-https://github.com/Digv06/E-commerce/assets/86612866/de2a09fb-deb9-4bd0-81a0-9191a3a0ade1
+https://www.youtube.com/watch?v=cEmTQk4xuEU&t=20s&ab_channel=WebDevFanatic
 
 
 
